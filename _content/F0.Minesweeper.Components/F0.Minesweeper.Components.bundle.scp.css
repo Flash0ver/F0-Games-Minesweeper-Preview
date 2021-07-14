@@ -1,0 +1,79 @@
+@import '';
+
+/* _content/F0.Minesweeper.Components/Layout/Footer.razor.rz.scp.css */
+#f0-footer[b-n7dmupikje] {
+	text-align: center;
+	padding: 20px;
+}
+/* _content/F0.Minesweeper.Components/Layout/Header.razor.rz.scp.css */
+#f0-header[b-cp9unhdt0i] {
+	text-align: center;
+	padding: 20px;
+}
+/* _content/F0.Minesweeper.Components/Layout/NavigationMenu.razor.rz.scp.css */
+#f0-navigationmenu[b-qh6vdstkfk] {
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+	text-align: center;
+}
+/* _content/F0.Minesweeper.Components/Layout/NavigationMenuItem.razor.rz.scp.css */
+#f0-navigationmenuitem[b-e134rbjbvs] {
+	display: inline;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+[b-e134rbjbvs] .f0-navigationmenuitem-active {
+	background-color: yellow;
+}
+/* _content/F0.Minesweeper.Components/Pages/Game/Modules/Cell.razor.rz.scp.css */
+.f0-cell[b-yaiquc1hov] {
+    min-height: 25px;
+    min-width: 25px;
+    color:rgba(0, 0, 0, 1);
+}
+
+.f0-cell-covered[b-yaiquc1hov], .f0-cell-covered:disabled[b-yaiquc1hov]  {
+	background-color: rgba(239, 239, 239, 1);
+    border-width: thin;
+}
+
+.f0-cell-flagged-wrong[b-yaiquc1hov], .f0-cell-flagged-wrong:disabled[b-yaiquc1hov] {
+	background-color: rgba(255, 0, 0, 0.3);
+    border-width: thin;
+}
+
+.f0-cell-mine-exploded[b-yaiquc1hov], .f0-cell-mine-exploded:disabled[b-yaiquc1hov] {
+	background-color: rgba(255, 0, 0, 1);
+    border: none;
+}
+
+.f0-cell-uncovered[b-yaiquc1hov], .f0-cell-uncovered:disabled[b-yaiquc1hov] {
+    background-color: rgba(239, 239, 239, 1);
+    border: none;
+    min-height: 25px;
+    min-width: 25px;
+}
+
+.f0-cell-undefinedstatus[b-yaiquc1hov], .f0-cell-undefinedstatus:disabled[b-yaiquc1hov] {
+    background-color: black;
+    color: aqua;
+    border-width: thin;
+}
+/* _content/F0.Minesweeper.Components/Pages/Game/Modules/GameEndStatus.razor.rz.scp.css */
+.f0-end-text-invisible[b-9j0rvh2hc0] {
+    display: none;
+}
+
+.f0-end-text-visible[b-9j0rvh2hc0] {
+    display: block;
+}
+/* _content/F0.Minesweeper.Components/Pages/Game/Modules/Minefield.razor.rz.scp.css */
+#f0-minefield[b-v975bdo8ob] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
