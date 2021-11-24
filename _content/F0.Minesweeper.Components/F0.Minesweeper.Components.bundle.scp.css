@@ -71,9 +71,24 @@
 .f0-end-text-visible[b-9j0rvh2hc0] {
     display: block;
 }
+/* _content/F0.Minesweeper.Components/Pages/Game/Modules/GameMenu.razor.rz.scp.css */
+.f0-gamemenu[b-1fird82pr5] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
 /* _content/F0.Minesweeper.Components/Pages/Game/Modules/Minefield.razor.rz.scp.css */
 #f0-minefield[b-v975bdo8ob] {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+/* _content/F0.Minesweeper.Components/Pages/Game/Modules/RestartGame.razor.rz.scp.css */
+.f0-button-restartgame[b-8ugmvwg7uk] {
+	min-height: 25px;
+	min-width: 25px;
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(239, 239, 239, 1);
+	border-width: thin;
 }
