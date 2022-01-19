@@ -29,37 +29,71 @@
 }
 /* _content/F0.Minesweeper.Components/Pages/Game/Modules/Cell.razor.rz.scp.css */
 .f0-cell[b-yaiquc1hov] {
-    min-height: 25px;
-    min-width: 25px;
-    color:rgba(0, 0, 0, 1);
+	height: 25px;
+	width: 25px;
+	color: rgba(0, 0, 0, 1);
 }
 
-.f0-cell-covered[b-yaiquc1hov], .f0-cell-covered:disabled[b-yaiquc1hov]  {
+.f0-cell-covered[b-yaiquc1hov], .f0-cell-covered:disabled[b-yaiquc1hov] {
 	background-color: rgba(239, 239, 239, 1);
-    border-width: thin;
+	border-width: thin;
 }
 
 .f0-cell-flagged-wrong[b-yaiquc1hov], .f0-cell-flagged-wrong:disabled[b-yaiquc1hov] {
 	background-color: rgba(255, 0, 0, 0.3);
-    border-width: thin;
+	border-width: thin;
 }
 
 .f0-cell-mine-exploded[b-yaiquc1hov], .f0-cell-mine-exploded:disabled[b-yaiquc1hov] {
 	background-color: rgba(255, 0, 0, 1);
-    border: none;
+	border: none;
 }
 
 .f0-cell-uncovered[b-yaiquc1hov], .f0-cell-uncovered:disabled[b-yaiquc1hov] {
-    background-color: rgba(239, 239, 239, 1);
-    border: none;
-    min-height: 25px;
-    min-width: 25px;
+	background-color: rgba(239, 239, 239, 1);
+	border: none;
 }
 
 .f0-cell-undefinedstatus[b-yaiquc1hov], .f0-cell-undefinedstatus:disabled[b-yaiquc1hov] {
-    background-color: black;
-    color: aqua;
-    border-width: thin;
+	background-color: black;
+	color: aqua;
+	border-width: thin;
+}
+
+/* empty class necessary for simpler logic */
+.f0-cell-0-adjacent-mines[b-yaiquc1hov] {
+}
+
+.f0-cell-1-adjacent-mines[b-yaiquc1hov] {
+	color: rgba(0, 0, 252, 1);
+}
+
+.f0-cell-2-adjacent-mines[b-yaiquc1hov] {
+	color: rgba(2, 128, 1, 1);
+}
+
+.f0-cell-3-adjacent-mines[b-yaiquc1hov] {
+	color: rgba(254, 0, 1, 1);
+}
+
+.f0-cell-4-adjacent-mines[b-yaiquc1hov] {
+	color: rgba(1, 1, 128, 1);
+}
+
+.f0-cell-5-adjacent-mines[b-yaiquc1hov] {
+	color: rgba(127, 3, 0, 1);
+}
+
+.f0-cell-6-adjacent-mines[b-yaiquc1hov] {
+	color: rgba(0, 128, 128, 1);
+}
+
+.f0-cell-7-adjacent-mines[b-yaiquc1hov] {
+	color: rgba(0, 0, 0, 1);
+}
+
+.f0-cell-8-adjacent-mines[b-yaiquc1hov] {
+	color: rgba(128, 128, 128, 1);
 }
 /* _content/F0.Minesweeper.Components/Pages/Game/Modules/GameEndStatus.razor.rz.scp.css */
 .f0-end-text-invisible[b-9j0rvh2hc0] {
@@ -80,7 +114,7 @@
 #f0-minefield[b-v975bdo8ob] {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 }
 /* _content/F0.Minesweeper.Components/Pages/Game/Modules/RestartGame.razor.rz.scp.css */
 .f0-button-restartgame[b-8ugmvwg7uk] {
